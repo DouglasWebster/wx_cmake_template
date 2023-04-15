@@ -38,13 +38,13 @@
         "name": "Linux",
         "includePath": [
             "${workspaceFolder}/src/**",
-            "${workspaceFolder}/build/stage/include/wx-3.1/**",
-            "${workspaceFolder}/build/subprojects/Build/wxWidgets_external/lib/wx/include/gtk3-unicode-static-3.1/**"
+            "/usr/include/wx-3.2/**",
+            "/usr/lib/wx/include/gtk3-unicode-3.2/**"
         ],
         "defines": [
             "__WXGTK__"
         ],
-        "compilerPath": "g++",
+        "compilerPath": "/usr/bin/g++",
         "cStandard": "c11",
         "cppStandard": "c++17",
         "intelliSenseMode": "gcc-x64"
